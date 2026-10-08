@@ -1,0 +1,24 @@
+{
+  "name": "procurement-archaeology",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Deep-search intelligence platform reconstructing hidden supply chains behind public projects",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "pnpm -r dev",
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck",
+    "docker:up": "docker compose up -d",
+    "docker:down": "docker compose down",
+    "ingest": "pnpm --filter ingest run main"
+  },
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=9"
+  }
+}
