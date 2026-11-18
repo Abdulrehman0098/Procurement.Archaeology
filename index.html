@@ -5,6 +5,21 @@
 <meta name="google-site-verification" content="W6qCj7rMPnNELb2JtCAPVDkpGxdJaZF1lr9559aW5fM" />
 <link rel="icon" type="image/svg+xml" href="favicon.svg" />
 <title>Procurement Archaeology — Who really built this?</title>
+<meta name="description" content="Independent, public-record investigations into public procurement, supply chains, contract failures, and the evidence behind public spending." />
+<meta name="robots" content="index,follow,max-image-preview:large" />
+<link rel="canonical" href="https://procurementarchaeology.com/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Procurement Archaeology" />
+<meta property="og:title" content="Procurement Archaeology — Who really built this?" />
+<meta property="og:description" content="Independent, public-record investigations into public procurement, supply chains, contract failures, and the evidence behind public spending." />
+<meta property="og:url" content="https://procurementarchaeology.com/" />
+<meta property="og:image" content="https://procurementarchaeology.com/logo.svg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Procurement Archaeology — Who really built this?" />
+<meta name="twitter:description" content="Independent, public-record investigations into public procurement, supply chains, contract failures, and the evidence behind public spending." />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"Procurement Archaeology","url":"https://procurementarchaeology.com/","description":"Independent, public-record investigations into public procurement, supply chains, contract failures, and the evidence behind public spending.","publisher":{"@type":"Organization","name":"Procurement Archaeology","url":"https://procurementarchaeology.com/","logo":"https://procurementarchaeology.com/logo.svg","founder":{"@type":"Person","name":"Abdulrehman Bhatti","jobTitle":"Founder & Lead Researcher"}}}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -1149,10 +1164,22 @@
   }
 
 </style>
+<link rel="stylesheet" href="assets/css/editorial.css" />
 </head>
 <body>
 
-<div class="info-strip">An independent research archive &middot; Public records only &middot; No advertising &middot; No sponsors &middot; No paywalls</div>
+<div class="info-strip">An independent research archive &middot; Public records only &middot; Supported by <a href="privacy.html">advertising</a> &middot; No paywalls</div>
+
+<div class="ed-spa-links">
+  <div class="ed-wrap">
+    <span class="ed-spa-label">Research library</span>
+    <a href="journal/">22 investigations</a>
+    <a href="tools/">Tool guides</a>
+    <a href="methodology.html">Methodology</a>
+    <a href="about.html">About the author</a>
+    <a href="privacy.html">Privacy</a>
+  </div>
+</div>
 
 <div class="browser-nav">
   <button class="browser-nav-btn" id="navBack" onclick="goBack()" title="Back" aria-label="Back">&#8592;</button>
@@ -1175,8 +1202,8 @@
       <a onclick="go('map')" data-page="map">Map</a>
       <a onclick="go('journal')" data-page="journal">Journal</a>
       <a onclick="go('archive')" data-page="archive">Archive</a>
-      <a onclick="go('methodology')" data-page="methodology">Methodology</a>
-      <a onclick="go('about')" data-page="about">About</a>
+      <a href="methodology.html">Methodology</a>
+      <a href="about.html">About</a>
       <button class="theme-toggle" onclick="toggleTheme()" title="Toggle theme" aria-label="Toggle theme">&#9790;</button>
     </nav>
   </div>
@@ -1188,7 +1215,7 @@
 <div id="page-home" class="page active">
   <div class="container">
     <div class="hero">
-      <div class="eyebrow"><span class="dot"></span> Independent research &middot; Public records &middot; 5 dossiers published</div>
+      <div class="eyebrow"><span class="dot"></span> Independent research &middot; Public records &middot; 22 investigations published</div>
       <h1>Who really built this &mdash; and <em>what went wrong?</em></h1>
       <p class="sub">Procurement Archaeology reconstructs the hidden supply chains, dependencies, and cost overruns behind public projects by mining tenders, contract amendments, court filings, corporate registries, and technical standards.</p>
       <div class="hero-buttons">
@@ -1197,26 +1224,77 @@
       </div>
 
       <div class="stats">
-        <div class="stat"><div class="num">100</div><div class="label">Contracts indexed</div></div>
-        <div class="stat"><div class="num">50</div><div class="label">Suppliers resolved</div></div>
-        <div class="stat"><div class="num">20</div><div class="label">Public buyers</div></div>
-        <div class="stat"><div class="num">5</div><div class="label">Deep dossiers</div></div>
+        <div class="stat"><div class="num">100</div><div class="label">Demo contracts</div></div>
+        <div class="stat"><div class="num">50</div><div class="label">Demo suppliers</div></div>
+        <div class="stat"><div class="num">20</div><div class="label">Demo buyers</div></div>
+        <div class="stat"><div class="num">22</div><div class="label">Investigations</div></div>
       </div>
     </div>
 
     <section>
       <div class="section-head">
         <h2>Featured dossiers</h2>
-        <div class="sub">Fully sourced investigations &middot; Updated monthly</div>
+        <div class="sub">Demonstration dataset &middot; Not a live feed</div>
       </div>
+      <div class="ed-demo-note"><strong>Demonstration data:</strong> these dossier cards are synthetic. They illustrate how an investigation dossier is laid out and do not describe real projects, companies, or contracts. The journal articles are separate and cite public records.</div>
       <div class="dossier-grid" id="homeDossiers"></div>
+    </section>
+
+    <section class="ed-section">
+      <div class="ed-section-head">
+        <div>
+          <span class="ed-kicker">From the journal</span>
+          <h2>Investigations built from the public record.</h2>
+          <p>Long-form analyses of procurement failures, emergency spending, hidden supply chains, and the audit trail that follows. Each article links to primary documents and separates what is known from what is still missing.</p>
+        </div>
+        <a class="ed-text-link" href="journal/">Browse all 22 investigations &rarr;</a>
+      </div>
+      <div class="ed-feature-grid">
+        <article class="ed-card" data-tilt>
+          <span class="ed-card-tag">Public IT</span>
+          <h3><a href="journal/arrivecan-canada-border-app.html">ArriveCAN and the Contracting Black Box</a></h3>
+          <p>A border app became a case study in urgency, outsourcing, and the cost of a missing paper trail.</p>
+          <div class="ed-card-meta"><span>14 Jan 2026</span><span>Read &rarr;</span></div>
+        </article>
+        <article class="ed-card" data-tilt>
+          <span class="ed-card-tag">Infrastructure</span>
+          <h3><a href="journal/us-border-wall-procurement.html">The Border Wall Was a Programme, Not a Project</a></h3>
+          <p>Shifting definitions, fragmented funding, land takings, and assets that arrive without a maintenance plan.</p>
+          <div class="ed-card-meta"><span>4 Feb 2026</span><span>Read &rarr;</span></div>
+        </article>
+        <article class="ed-card" data-tilt>
+          <span class="ed-card-tag">Emergency procurement</span>
+          <h3><a href="journal/eu-covid-vaccine-procurement.html">The EU's Vaccine Contracts and the Cost of Confidentiality</a></h3>
+          <p>How urgency, secrecy, and joint buying can deliver doses while leaving the public unable to test the deal.</p>
+          <div class="ed-card-meta"><span>15 Apr 2026</span><span>Read &rarr;</span></div>
+        </article>
+        <article class="ed-card" data-tilt>
+          <span class="ed-card-tag">Space</span>
+          <h3><a href="journal/galileo-sovereignty-procurement.html">Galileo and the Price of Sovereignty</a></h3>
+          <p>Security, competition, and geographic return pull a strategic space programme in different directions.</p>
+          <div class="ed-card-meta"><span>18 Mar 2026</span><span>Read &rarr;</span></div>
+        </article>
+        <article class="ed-card" data-tilt>
+          <span class="ed-card-tag">Public IT</span>
+          <h3><a href="journal/netherlands-childcare-algorithm.html">The Dutch Childcare Scandal and the Governance of a Risk Model</a></h3>
+          <p>A failure to govern a risk-scoring system whose outputs were treated as facts, not probabilities.</p>
+          <div class="ed-card-meta"><span>13 May 2026</span><span>Read &rarr;</span></div>
+        </article>
+        <article class="ed-card" data-tilt>
+          <span class="ed-card-tag">Procurement analysis</span>
+          <h3><a href="journal/single-bid-procurement.html">Single-Bid Procurement: A Warning Light, Not a Verdict</a></h3>
+          <p>Why one bidder is a question to investigate, not proof of wrongdoing or a reason to stop thinking.</p>
+          <div class="ed-card-meta"><span>10 Jun 2026</span><span>Read &rarr;</span></div>
+        </article>
+      </div>
     </section>
 
     <section>
       <div class="section-head">
         <h2>Latest contracts</h2>
-        <div class="sub">Auto-ingested from TED, SAM.gov, Contracts Finder</div>
+        <div class="sub">Demonstration dataset &middot; Not a live feed</div>
       </div>
+      <div class="ed-demo-note"><strong>Demonstration data:</strong> the contract table below is synthetic. It shows how the search interface works and is not a statement about any real company, buyer, or contract. The journal articles use public records and cite them separately.</div>
       <table class="contracts-table">
         <thead>
           <tr>
@@ -1234,8 +1312,9 @@
   <div class="container" style="padding-top:50px;padding-bottom:80px;">
     <div class="section-head">
       <h2>Search contracts, suppliers, buyers</h2>
-      <div class="sub"><span id="searchCount">0</span> results</div>
+      <div class="sub"><span id="searchCount">0</span> results &middot; demonstration data</div>
     </div>
+    <div class="ed-demo-note"><strong>Demonstration data:</strong> these records are synthetic. Use the search view to learn the interface, then verify any real contract through the official portal for the jurisdiction.</div>
     <div class="search-bar">
       <div class="search-input-wrap">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.35-4.35"/></svg>
@@ -1270,8 +1349,9 @@
   <div class="container" style="padding-top:50px;padding-bottom:80px;">
     <div class="section-head">
       <h2>Supply-chain graph</h2>
-      <div class="sub">Buyers &rarr; Suppliers &rarr; Subcontractors</div>
+      <div class="sub">Buyers &rarr; Suppliers &rarr; Subcontractors &middot; demonstration data</div>
     </div>
+    <div class="ed-demo-note"><strong>Demonstration data:</strong> the nodes and links below are synthetic. A line in a real investigation should be backed by a contract, a corporate filing, a court record, or an audit.</div>
     <div class="graph-canvas">
       <svg id="graphSvg" viewBox="0 0 1200 500" preserveAspectRatio="xMidYMid meet"></svg>
     </div>
@@ -1289,8 +1369,9 @@
   <div class="container" style="padding-top:50px;padding-bottom:80px;">
     <div class="section-head">
       <h2>Project map</h2>
-      <div class="sub">Public projects by location &middot; Hover pins for details</div>
+      <div class="sub">Public projects by location &middot; Hover pins for details &middot; demonstration data</div>
     </div>
+    <div class="ed-demo-note"><strong>Demonstration data:</strong> the pins and coordinates below are synthetic. They demonstrate the geographic view, not the location of any real project.</div>
     <div class="map-container" id="mapContainer">
       <div class="map-legend">
         <div><span class="legend-dot" style="background:var(--amber)"></span>Infrastructure</div>
@@ -1307,8 +1388,9 @@
   <div class="container" style="padding-top:50px;padding-bottom:80px;">
     <div class="section-head">
       <h2>Source archive</h2>
-      <div class="sub">Every document hashed &middot; SHA-256 &middot; Permanent record</div>
+      <div class="sub">Every document hashed &middot; SHA-256 &middot; Demonstration data</div>
     </div>
+    <div class="ed-demo-note"><strong>Demonstration data:</strong> the archive entries below are synthetic. In a real investigation, each entry should point to a retrievable document and a hash a reader can verify.</div>
     <div class="archive-list" id="archiveList"></div>
   </div>
 </div>
@@ -1353,8 +1435,9 @@
   <div class="container" style="padding-top:50px;padding-bottom:80px;">
     <div class="section-head">
       <h2>Admin dashboard</h2>
-      <div class="sub">Ingestion &middot; Verification &middot; System health</div>
+      <div class="sub">Ingestion &middot; Verification &middot; System health &middot; demonstration data</div>
     </div>
+    <div class="ed-demo-note"><strong>Demonstration data:</strong> the dashboard and ingestion runs below are illustrative. The public application does not currently ingest live data from TED, SAM.gov, or Contracts Finder.</div>
     <div class="admin-grid">
       <div class="admin-card"><div class="label">Contracts</div><div class="value">100</div></div>
       <div class="admin-card"><div class="label">Suppliers</div><div class="value">50</div></div>
@@ -1380,8 +1463,39 @@
   <div class="container" style="padding-top:50px;padding-bottom:80px;">
     <div class="section-head">
       <h2>Journal</h2>
-      <div class="sub">Analysis, methodology updates, and field notes</div>
+      <div class="sub">Public-record investigations &middot; Methodology notes &middot; Field notes</div>
     </div>
+    <section class="ed-section">
+      <div class="ed-section-head">
+        <div>
+          <span class="ed-kicker">Editorial library</span>
+          <h2>22 sourced investigations.</h2>
+          <p>The journal is the editorial record: long-form analyses with primary sources, author attribution, and a clear separation between documented facts and open questions.</p>
+        </div>
+        <a class="ed-text-link" href="journal/">Open the full journal &rarr;</a>
+      </div>
+      <div class="ed-feature-grid">
+        <article class="ed-card" data-tilt>
+          <span class="ed-card-tag">Defence IT</span>
+          <h3><a href="journal/jwcc-multi-cloud.html">JWCC and the Turn to Multi-Cloud</a></h3>
+          <p>Multi-award contracts promise optionality. The real test is whether task orders are competed and workloads can move.</p>
+          <div class="ed-card-meta"><span>Read &rarr;</span><span>Defence IT</span></div>
+        </article>
+        <article class="ed-card" data-tilt>
+          <span class="ed-card-tag">Megaproject</span>
+          <h3><a href="journal/iter-in-kind-procurement.html">ITER and the Cost of Learning by Building</a></h3>
+          <p>An international fusion experiment shows how in-kind contributions spread risk and hide cost.</p>
+          <div class="ed-card-meta"><span>Read &rarr;</span><span>Megaproject</span></div>
+        </article>
+        <article class="ed-card" data-tilt>
+          <span class="ed-card-tag">Competition</span>
+          <h3><a href="journal/bid-rigging-red-flags.html">Bid Rigging: Reading the Red Flags Without Overreading Them</a></h3>
+          <p>Red flags are questions to investigate, not findings to publish. The evidence standard matters.</p>
+          <div class="ed-card-meta"><span>Read &rarr;</span><span>Competition</span></div>
+        </article>
+      </div>
+    </section>
+    <div class="ed-demo-note"><strong>Demonstration archive:</strong> the older cards below are illustrative and use synthetic data. The 22 investigations above are the sourced editorial record.</div>
     <div class="journal-grid" id="journalGrid"></div>
   </div>
 </div>
@@ -1426,7 +1540,7 @@
 
 <!-- COOKIE BANNER -->
 <div class="cookie-banner" id="cookieBanner">
-  <div class="cookie-text">We use cookies to remember your theme preference and improve your experience. By continuing to use this site, you accept our use of cookies. <a href="#" onclick="return false;">Learn more</a></div>
+  <div class="cookie-text">We use local storage to remember your theme and cookie choice, and Google AdSense may use cookies to serve ads. Read the <a href="privacy.html">privacy policy</a> for details.</div>
   <div class="cookie-actions">
     <button class="cookie-btn decline" onclick="dismissCookies(false)">Decline</button>
     <button class="cookie-btn accept" onclick="dismissCookies(true)">Accept</button>
@@ -1445,30 +1559,32 @@
       </div>
       <div class="footer-col">
         <h4>Product</h4>
-        <a onclick="go('search')">Search</a>
+        <a onclick="go('search')">Search the demo</a>
         <a onclick="go('graph')">Graph explorer</a>
         <a onclick="go('map')">Project map</a>
         <a onclick="go('archive')">Source archive</a>
+        <a href="tools/">Tool guides</a>
       </div>
       <div class="footer-col">
         <h4>Editorial</h4>
-        <a onclick="go('journal')">Journal</a>
-        <a onclick="go('methodology')">Methodology</a>
-        <a onclick="go('about')">About</a>
-        <a href="#" onclick="return false;">Corrections</a>
+        <a href="journal/">All investigations</a>
+        <a href="methodology.html">Methodology</a>
+        <a href="about.html">About the author</a>
+        <a href="mailto:bhattiabdulrehman430@gmail.com">Corrections</a>
+        <a onclick="go('journal')">Journal notes</a>
       </div>
       <div class="footer-col">
         <h4>Legal</h4>
-        <a href="#" onclick="return false;">Privacy</a>
-        <a href="#" onclick="return false;">Terms</a>
-        <a href="#" onclick="return false;">Cookies</a>
-        <a href="#" onclick="return false;">Licenses</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="privacy.html#cookies">Cookies</a>
+        <a href="licenses.html">Licenses</a>
         <a onclick="go('admin')" style="margin-top:16px;">Admin</a>
       </div>
     </div>
     <div class="footer-bottom">
-      <div>&copy; 2025 Procurement Archaeology &middot; Code MIT &middot; Content CC BY-NC-SA 4.0</div>
-      <div style="font-family:var(--mono);">No advertising. No sponsorship. No paywalls.</div>
+      <div>&copy; 2026 Procurement Archaeology &middot; Code MIT &middot; Content CC BY-NC-SA 4.0</div>
+      <div style="font-family:var(--mono);">Supported by advertising &middot; No paywalls &middot; <a href="privacy.html" style="color:var(--amber);text-decoration:none;">Privacy</a></div>
     </div>
     <div class="made-in-open">
       Made in the open &middot; Built with public records and open methodology &middot; <a onclick="go('methodology')">Read the methodology</a>
@@ -2777,6 +2893,7 @@ function closeHints() {
   document.getElementById('hintsOverlay').classList.remove('open');
 }
 </script>
+<script src="assets/js/editorial.js" defer></script>
 
 </body>
 </html>
